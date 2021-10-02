@@ -1,0 +1,183 @@
+body{
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
+}
+
+.big-wrapper{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/dd.jpg);
+    border-top: 10px solid #5385c1;
+    background-repeat: no-repeat;
+}
+
+#my-navigation{
+    position: relative;
+    top: 45px;
+    color: #fff;
+    background: none;
+    border: 0;
+}
+
+#my-navigation a{
+    color: #fff;
+    font-size: 18px;
+}
+ 
+#my-navigation .navbar-toggle .icon-bar{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+/*BANNER*/
+
+.banner{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
+.banner h1{
+    color: #fff;
+    font-weight: 100;
+    font-size: 60px;
+}
+.banner p{
+    color: #fff;
+    font-weight: 100;
+    word-spacing: 5px;
+    padding-top: 30px;
+}
+
+
+/*THREE SEC*/
+
+.main{
+    padding: 0px 30px;
+}
+.main h2{
+    color: #5385c1;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.main p{
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.my-button{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: #5385c1;
+    color: #fff;
+    margin-top: 30px;
+    font-family: "Raleway",Arial, Helvetica, sans-serif;
+}
+
+.add-border{
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: #dbdbdb;
+}
+
+.custom-row{
+    padding: 50px 0px;
+}
+
+/*TEAM*/
+
+.team{
+    width: 100%;
+    background-color: #5385c1;
+    padding: 120px 0px;
+    color: #fff;
+}
+
+.person{
+    text-align: center;
+    border: 1px solid #dadada;
+    padding: 30px;
+    margin-top: 65px;
+    border-radius: 2px;
+}
+
+.two-section{
+    padding: 80px 0;
+}
+
+.two-section h1{
+    color: #5385c1;
+    font-size: 50px;
+}
+
+.two-section p{
+    font-weight: 500;
+    word-spacing: 7px;
+    margin-top: 15px;
+}
+
+.section-1, .section-2{
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.section-1 h2, .section-2 h2{
+    color: #5385c1;
+    font-weight: 600;
+    padding: 25px 0;
+    font-size: 23px;
+}
+
+.section-1 p, .section-2 p{
+    line-height: 25px;
+    font-weight: 600;
+    color: #949494;
+}
+
+.section-1 img, .section-2 img{
+    width: 100%;
+}
+
+/*FOOTER*/
+
+.footer{
+    margin-top: 550px;
+    border-top: 1px solid #dadada;
+    padding-top: 50px;
+}
+
+.footer span{
+    padding: 10px;
+    font-size: 18px;
+    color: #5385c1;
+
+}
+
+
+/*MEDIA QUERY*/
+
+@media only screen and (max-width:767px){
+    .banner h1{
+        font-size: 45px;
+    }
+
+    .add-border{
+        border: 0;
+    }
+
+    .two-section h1{
+        font-size: 40px;
+    }
+
+    .footer{
+        margin-top: 100px;
+    }
+   
+
+}
